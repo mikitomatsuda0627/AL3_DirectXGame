@@ -49,12 +49,20 @@ class GameScene {
 	Audio* audio_ = nullptr;
 	DebugText* debugText_ = nullptr;
 	UINT32 textureHandle_ = 0;
-	Model* model_=nullptr;
+	/*Model* model_=nullptr;*/
+	/*WorldTransform worldTransform_;*/
+	/*ViewProjection viewProjection_;*/
+	/*UINT32 soundDateHandle_ = 0;
+	UINT32 voiceHandle_ = 0;*/
+	int32_t value_ = 0;
+	//テクスチャハンドル
+	UINT32 texureHandle_ = 0;
+	//3Dモデル
+	Model* model_ = nullptr;
+	//ワールドトランス
 	WorldTransform worldTransform_;
 	ViewProjection viewProjection_;
-	UINT32 soundDateHandle_ = 0;
-	UINT32 voiceHandle_ = 0;
-	int32_t value_ = 0;
+
 	/// <summary>
 	/// ゲームシーン用
 	/// </summary>
